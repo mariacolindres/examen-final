@@ -1,0 +1,131 @@
+body{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 1.2rem;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+	--color-white: #fff;
+}
+header{
+	background-color: #fff;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
+
+
+
+.intro {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0;
+}
+.column {
+	flex-basis: calc(33.33% - 20px);
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.column img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 1rem;
+}
+.column p {
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+
+.services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0;
+}
+.services .column {
+	flex-basis: calc(25% - 20px);
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.services .column img {
+	width: 50%;
+	height: auto;
+	margin-bottom: 1rem;
+}
+.services .column p {
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+
+.cta {
+	height: 400px;
+	background-image: url('./home-grid-banner.jpg');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cta-content {
+	text-align: center;
+}
+.cta-content h2 {
+	color: var(--color-white);
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+
+.cta-content button {
+font-size: 1.2rem;
+background-color: var(--color-white);
+color: var(--color-secondary);
+padding: 1rem 2rem;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+.cta-content button:hover {
+background-color: #c0392b;
+transform: translateY(-5px);
+}
+.clients {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0;
+	background-color: var(--color-white);
+}
+.clients .column {
+	flex-basis: calc(25% - 20px);
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.clients .column img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 1rem;
+}
